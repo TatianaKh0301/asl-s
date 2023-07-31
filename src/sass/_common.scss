@@ -1,1 +1,83 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+.container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    background-color: lightcoral;
+  }
+
+  @media screen and (min-width: 320px) {
+    .container {
+      width: 320px;
+    }
+  }
+  @media screen and (min-width: 321px) and (max-width: 479px) {
+    .container {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 480px) {
+    .container {
+      width: 480px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .container {
+      width: 1280px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  
+  html, 
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+  }
+  
+  body > a {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .page-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main-wrapper {
+    flex-grow: 1;
+    // height: 800px;
+  }
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
