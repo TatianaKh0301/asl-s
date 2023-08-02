@@ -22,7 +22,7 @@
     padding-left: 83px;
     font-size: 20px;
     color: #9DA4BD;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 .hero-text-before-title::before {
@@ -55,11 +55,14 @@
     font-size: 100px;
     font-weight: 700;
     text-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .hero-text-after-title {
     font-size: 25px;
+    line-height: 1.5;
+    color: black;
+    text-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 button {

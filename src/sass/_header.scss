@@ -38,7 +38,7 @@
     left: 22px;
     font-size: 35px;
     font-weight: bold;
-    text-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); ;
+    text-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .logo:hover .logo-name {
@@ -73,3 +73,28 @@
 .header-list-info-item:not(:last-child) {
     margin-right: 50px;
 }
+
+.menu-item-link {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 3%;
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus {
+    color: white; 
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+// .menu-item-link::after {
+//     content: "";
+//     height: 5px;
+//     background-color: #9DA4BD;
+//     width: 123px;
+//     border-radius: 2px;
+//     display: block;
+//     position: absolute;
+//     left: 345px;
+//     top: 103px;
+//     box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+// }
