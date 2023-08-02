@@ -1,0 +1,1 @@
+{"mappings":"AAAA,IAAIA,OAAO,gBAAiB,C","sources":["src/js/swiper.js"],"sourcesContent":["new Swiper(\".image-slider\", {\n    // pagination: {\n    //     el: \".swiper-pagination\",\n    //     clickable: true,\n    //     dynamicBullet: true,\n    // },\n});"],"names":["Swiper"],"version":3,"file":"index.e2ed1574.js.map"}
