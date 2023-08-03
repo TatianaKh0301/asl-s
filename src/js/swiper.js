@@ -1,9 +1,9 @@
 
 new Swiper(".mySwiper", {
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    // },
 
     autoHeight: true,
     
@@ -20,7 +20,7 @@ new Swiper(".mySwiper", {
     },
 
     autoplay: {
-        delay: 1000,
+        delay: 3000,
         stopOnLastSlide: false,
         disableOnInteraction: false,
     }
