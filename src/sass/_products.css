@@ -1,6 +1,8 @@
 /* products */
 .products {
     padding: 50px;
+    min-height: 30%;
+    width: 900px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -19,11 +21,14 @@
     margin: 0px 0px 30px 0px;
 }
 
-.slide-item {
-    padding-left: 50px;
-    padding-right: 50px;
+.image-slider {
+    padding: 30px 0 70px 0;
 }
 
-.swiper-pagination {
-    color: red;
+.image-slider__image {
+    text-align: center;
+}
+
+.image-slider__image img {
+    max-width: 100%;
 }
