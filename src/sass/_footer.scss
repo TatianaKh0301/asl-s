@@ -1,10 +1,30 @@
 footer {
     display: flex;
+    padding: 20px 100px;
     justify-content: space-around;
-    padding: 30px 143px;
     background-image: url("../images/bg-header-footer.jpg");
+}
+
+.footer-block-wrapper {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    padding: 20px;
 }
 
 .footer-title {
     margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-contacts-link {
+    display: flex;
+}
+
+.footer-contacts-icon {
+    stroke:  #060606;
+    margin-right: 10px;
+}
+
+.footer-schedule-list {
+   text-align: center;
 }

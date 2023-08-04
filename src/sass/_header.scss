@@ -64,7 +64,7 @@
     align-items: center;
     font-style: normal;
     font-weight: 400;
-    font-size:20px;
+    font-size: 20px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
@@ -74,6 +74,15 @@
     margin-right: 50px;
 }
 
+.header-info-link {
+    display: flex;
+}
+
+.header-info-icon {
+    stroke:  #060606;
+    margin-right: 5px;
+    font-weight: bold;
+}
 .menu-item-link {
     padding: 10px;
     font-size: 25px;
@@ -86,6 +95,9 @@
     color: white; 
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
+
+
+
 // .menu-item-link::after {
 //     content: "";
 //     height: 5px;
