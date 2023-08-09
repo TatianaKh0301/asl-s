@@ -18,6 +18,7 @@ footer {
 }
 .footer-contacts-link {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .footer-contacts-icon {
@@ -25,6 +26,12 @@ footer {
     margin-right: 10px;
 }
 
-.footer-schedule-list {
-   text-align: center;
+.schedule-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-schedule-list-item:not(:last-child) {
+   margin-bottom: 10px;
 }

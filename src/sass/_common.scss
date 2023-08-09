@@ -86,6 +86,16 @@ button {
   cursor: pointer;
 }
 
+.button {
+  height: 70px;
+  width: 150px;
+  border-radius: 3%;
+  text-transform: uppercase;
+  font-weight: 500;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
 // .section {
 //   padding-top: 90px;
 //   padding-bottom: 90px;
