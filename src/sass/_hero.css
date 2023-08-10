@@ -34,9 +34,9 @@
     border-radius: 2px;
     display: block;
     position: absolute;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
     left: 80px;
     top: 83px;
-    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .hero-text-before-title::after {
@@ -46,10 +46,17 @@
     width: 63px;
     border-radius: 2px;
     display: block;
-    position: absolute;
-    left: 350px;
+    position: absolute;    
     top: 83px;
     box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text-before-title-english::after {
+    left: 350px;    
+}
+
+.hero-text-before-title-ukrainian::after {
+    left: 375px;
 }
 
 .hero-title {
@@ -59,11 +66,19 @@
     margin-bottom: 80px;
 }
 
+.hero-title-ukrainian {
+    font-size: 93px;
+}
+
 .hero-text-after-title {
     font-size: 25px;
     line-height: 1.5;
     color: black;
     text-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text-after-title-ukrainian {
+    font-size: 20px;
 }
 
 .modal-open-btn {

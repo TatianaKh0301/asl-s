@@ -20,8 +20,9 @@
     font-weight: 400;
     line-height: 1.21;
     letter-spacing: 0.03em;
+    padding: 30px;
 }
 
 .about-text-part-1 {
-    margin-right: 10px;
+    margin-right: 30px;
 }
