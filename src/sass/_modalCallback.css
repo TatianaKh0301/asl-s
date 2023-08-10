@@ -121,9 +121,17 @@
     font-weight: 500;
 }
 
+.form-callback-label-ukrainian {
+    font-size: 25px;
+}
+
 .form-callback-input {
     width: 580px;
-    height: 50px;
+    height: 40px;
+}
+
+.form-callback-input-ukrainian {
+    width: 500px;
 }
 
 textarea.form-callback-input {
