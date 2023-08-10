@@ -51,7 +51,7 @@
 }
 
 .modal-callback-form-wrapper {
-    padding: 50px;
+    padding: 30px;
     /* height: 580px; */
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
@@ -102,16 +102,18 @@
     margin-bottom: 40px;
 }
 
-/* .form-callback {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-} */
-
 .form-callback-item {
     display: flex;
     justify-content: space-between;
-    width: 700px;
-    height: 50px;
+    width: 800px;
+    height: 40px;
+}
+.form-callback-item:not(:last-of-type) {
     margin-bottom: 20px;
+}
+
+.form-callback-item:last-of-type {
+    margin-bottom: 40px;
 }
 
 .form-callback-label {
@@ -131,5 +133,6 @@ textarea.form-callback-input {
 
 .form-callback-btn {
     display: block;
+    height: 50px;
     margin: 0 auto;
 }
