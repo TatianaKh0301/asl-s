@@ -5,7 +5,8 @@
         modalCallback: document.querySelector('.backdrop-send-form'),
         body: document.querySelector('body'),
     };
-    const { openModalCallbackBtn, closeModalCallbackBtn, modalCallback, body } =
+
+    const { openModalCallbackBtn, closeModalCallbackBtn, modalCallback, body, form } =
     refsModalCallback;
     openModalCallbackBtn.addEventListener('click', onOpenModalCallbackBtn);
     closeModalCallbackBtn.addEventListener('click', onCloseModalCallbackBtn);
@@ -22,6 +23,7 @@
         modalCallback.classList.toggle('is-hidden');
         body.classList.toggle('no-scroll');
     }
+
     function onEscKeyPress(e) {
         if (e.key === 'Escape') {
             onCloseModalCallbackBtn();

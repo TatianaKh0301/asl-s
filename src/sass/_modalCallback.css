@@ -102,6 +102,23 @@
     margin-bottom: 40px;
 }
 
+.form-callback-body {
+    position: relative;
+}
+
+.form-callback-body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.418) url("../images/loading.gif") center / 50px no-repeat;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
 .form-callback-item {
     display: flex;
     justify-content: space-between;
@@ -128,6 +145,10 @@
 .form-callback-input {
     width: 580px;
     height: 40px;
+}
+
+.form-callback-input._error {
+    box-shadow: 0 0 15px red;
 }
 
 .form-callback-input-ukrainian {
