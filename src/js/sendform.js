@@ -44,15 +44,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     formAddError(input);
                     error++;
                 }
-            } else if (input.getAttribute("type") === "checkbox" && input.checked === false) {
+            } else  if (phoneTest(input)){
                 formAddError(input);
                 error++;
-            } else {
-                if (input.value === '') {
-                    formAddError(input);
-                    error++;
-                }
             }
+            // } else {
+            //     if (input.value === '') {
+            //         formAddError(input);
+            //         error++;
+            //     }
+            // }
         }
         return error;
     }
@@ -69,5 +70,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function emailTest(input) {
         return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
+    }
+
+    function phoneTest(input) {
+        return !/[0-9]{3}[-][0-9]{2}[-][0-9]{2}/.test(input.value);
     }
 });
