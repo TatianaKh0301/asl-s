@@ -47,13 +47,12 @@ document.addEventListener('DOMContentLoaded', function() {
             } else  if (phoneTest(input)){
                 formAddError(input);
                 error++;
+            } else {
+                if (input.value === '') {
+                    formAddError(input);
+                    error++;
+                }
             }
-            // } else {
-            //     if (input.value === '') {
-            //         formAddError(input);
-            //         error++;
-            //     }
-            // }
         }
         return error;
     }
