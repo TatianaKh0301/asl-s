@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 form.classList.remove('_sending');
             } else {
                 alert("Error PHP server");
+                form.classList.remove('_sending');
             }
         } else {
             alert('Please, fill in required fields');
